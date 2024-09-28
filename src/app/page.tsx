@@ -1,3 +1,9 @@
+import TestBtn from './TestBtn';
+
 export default function Home() {
-  return <div>test</div>;
+  return (
+    <div>
+      <TestBtn />
+    </div>
+  );
 }
