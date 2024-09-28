@@ -28,26 +28,26 @@ type Story = StoryObj<typeof meta>;
 export const Primary: Story = {
   args: {
     primary: true,
-    label: 'Test1',
+    label: 'Test2',
   },
 };
 
 export const Secondary: Story = {
   args: {
-    label: 'Test1',
+    label: 'Test2',
   },
 };
 
 export const Large: Story = {
   args: {
     size: 'large',
-    label: 'Test1',
+    label: 'Test2',
   },
 };
 
 export const Small: Story = {
   args: {
     size: 'small',
-    label: 'Test1',
+    label: 'Test2',
   },
 };
