@@ -16,7 +16,6 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'prettier',
   ],
-  ignorePatterns: ['taskbox/**'],
   plugins: ['react', 'react-hooks', 'jsx-a11y', 'import', '@typescript-eslint'],
   settings: {
     'import/resolver': {
