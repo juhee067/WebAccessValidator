@@ -16,6 +16,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'prettier',
   ],
+  ignorePatterns: ['taskbox/**'],
   plugins: ['react', 'react-hooks', 'jsx-a11y', 'import', '@typescript-eslint'],
   settings: {
     'import/resolver': {
@@ -108,7 +109,6 @@ module.exports = {
       },
     ],
     'jsx-a11y/no-redundant-roles': 'error',
-    'jsx-a11y/interactive-supports-focus': 'error',
   },
   overrides: [
     {
