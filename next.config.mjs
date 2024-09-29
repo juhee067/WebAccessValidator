@@ -14,4 +14,5 @@ export default withSentryConfig(nextConfig, {
   hideSourceMaps: true,
   disableLogger: true,
   automaticVercelMonitors: true,
+  authToken: process.env.NEXT_PUBLIC_SENTRY_AUTH_TOKEN,
 });
